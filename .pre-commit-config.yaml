@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2025 Tomi Božak, Jožef Stefan Institute
+# SPDX-License-Identifier: MIT
+
 repos:
   - repo: https://github.com/fsfe/reuse-tool
     rev: v5.0.2
