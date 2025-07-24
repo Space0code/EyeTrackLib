@@ -1,0 +1,17 @@
+repos:
+  - repo: https://github.com/fsfe/reuse-tool
+    rev: v5.0.2
+    hooks:
+      # Automatically add missing SPDX headers
+      - id: reuse
+        args:
+          - annotate
+          - --copyright
+          - "2025 Tomi Božak, Jožef Stefan Institute"
+          - --license
+          - MIT
+
+      # Then verify REUSE compliance on every commit
+      - id: reuse
+        args:
+          - lint
