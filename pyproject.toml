@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eyetracklib"
+version = "0.9.0"
+description = "An open-source Python toolkit for fixation, saccade, blink detection and feature extraction"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Tomi Božak", email = "tomi.bozak@example.com" },
+]
+dependencies = [
+  "numpy>=2.0.0",
+  "pandas>=2.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Space0code/EyeTrackLib"
+"Repository" = "https://github.com/Space0code/EyeTrackLib"
+"Zenodo DOI" = "https://doi.org/10.5281/zenodo.xxxxxx"  # fill in after minting
+
+[project.classifiers]
+# See https://pypi.org/classifiers/ for full list
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Visualization",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]

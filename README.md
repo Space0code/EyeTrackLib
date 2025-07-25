@@ -60,7 +60,7 @@ saccades, fixations = calculate_saccades_and_fixations(
 
 ## Contributing
 
-See `CONTRIBUTING.md` for guidelines.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 
 ## License
