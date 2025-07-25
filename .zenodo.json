@@ -10,5 +10,5 @@
     }
   ],
   "keywords": ["eyetracking", "fixations", "saccades", "pupil size", "pupil dilation", "blinks", "gaze", "Python"],
-  "version": "1.0.0"
+  "version": "0.9.0"
 }

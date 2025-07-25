@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2025 Tomi Božak, Jožef Stefan Institute 
+# SPDX-License-Identifier: MIT 
+
+cff-version: 1.2.0
+title: "EyeTrackLib: An open-source Python toolkit for fixation, saccade, blink detection and feature extraction"
+message: "If you use this software, please cite it as below."
+version: "0.9.0"
+date-released: "2025-07-25"
+authors:
+  - family-names: Božak
+    given-names: Tomi
+    orcid: "https://orcid.org/0009-0002-3560-6419"
+repository-code: "https://github.com/Space0code/EyeTrackLib"
+license: "MIT"
+# Replace the following once you have your Zenodo DOI:
+# doi: "10.5281/zenodo.xxxxxx"
