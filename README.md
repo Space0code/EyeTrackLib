@@ -46,16 +46,23 @@ saccades, fixations = calculate_saccades_and_fixations(
 
 ```
 .
-├── AUTHORS.md          # contributors list
-├── calculate_features  # compute derived metrics (blink freq, mean fixation duration, ...)
-├── calculate_streams   # core detection algorithms
+├── AUTHORS.md
+├── calculate_features
+├── calculate_streams
+│   ├── __init__.py
+│   ├── blinks.py
 │   ├── README-blinks.md
 │   ├── README-fixations-saccades.md
 │   └── saccades_and_fixations.py
+├── CITATION.cff
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
 ├── LICENSE
-├── pyproject.toml      # packaging metadata
-├── README.md           # this file
-└── tests               # unit tests
+├── paper.md
+├── pyproject.toml
+├── README.md
+└── tests
+    └── test_calculate_saccades_and_fixations.py
 ```
 
 ## Contributing
