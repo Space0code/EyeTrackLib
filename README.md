@@ -12,12 +12,6 @@ It also includes a companion visualization app to overlay detected events on gaz
 ## Installation
 
 ```bash
-pip install eyetracklib
-```
-
-Or install from source:
-
-```bash
 git clone https://github.com/Space0code/EyeTrackLib.git
 cd EyeTrackLib
 pip install -e .
